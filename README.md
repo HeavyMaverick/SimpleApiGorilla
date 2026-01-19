@@ -6,6 +6,6 @@
 
 ```bash
 # Клонировать и запустить
-git clone https://github.com/ваш-username/simple-movie-api.git
-cd simple-movie-api
+git clone https://github.com/heavymaverick/simpleapigorilla.git
+cd SimpleApiGorilla
 go run main.go
