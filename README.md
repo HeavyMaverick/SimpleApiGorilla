@@ -1,2 +1,11 @@
-# SimpleApiGorilla
+# Simple Movie API with Go
 
+Простое REST API для управления фильмами на Go с использованием Gorilla Mux.
+
+## 🚀 Быстрый старт
+
+```bash
+# Клонировать и запустить
+git clone https://github.com/ваш-username/simple-movie-api.git
+cd simple-movie-api
+go run main.go
