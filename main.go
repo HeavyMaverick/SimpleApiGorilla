@@ -55,7 +55,7 @@ func AddMovie(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	mu.Lock()
-	defer mu.RUnlock()
+	defer mu.Unlock()
 	movies = append(movies, movie)
 	w.WriteHeader(http.StatusCreated)
 	err = json.NewEncoder(w).Encode(movies)
